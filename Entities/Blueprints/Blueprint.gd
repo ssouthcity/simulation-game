@@ -1,4 +1,4 @@
-class_name Blueprint
+class_name BlueprintEntity
 extends Node2D
 
 
