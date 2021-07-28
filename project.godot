@@ -9,12 +9,24 @@
 config_version=4
 
 _global_script_classes=[ {
+"base": "Node2D",
+"class": "Blueprint",
+"language": "GDScript",
+"path": "res://Entities/Blueprints/Blueprint.gd"
+}, {
+"base": "Node2D",
+"class": "Entity",
+"language": "GDScript",
+"path": "res://Entities/Entity.gd"
+}, {
 "base": "",
 "class": "GitAPI",
 "language": "NativeScript",
 "path": "res://git_api.gdns"
 } ]
 _global_script_class_icons={
+"Blueprint": "",
+"Entity": "",
 "GitAPI": ""
 }
 
