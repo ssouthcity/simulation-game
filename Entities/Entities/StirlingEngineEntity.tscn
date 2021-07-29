@@ -32,7 +32,9 @@ tracks/1/keys = {
 "values": [ Vector2( 0, -33 ), Vector2( 0, -65 ), Vector2( 0, -32 ) ]
 }
 
-[node name="StirlingEngine" type="StaticBody2D"]
+[node name="StirlingEngine" type="StaticBody2D" groups=[
+"power_sources",
+]]
 script = ExtResource( 2 )
 
 [node name="EngineBase" type="Sprite" parent="."]

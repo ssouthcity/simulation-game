@@ -28,12 +28,30 @@ _global_script_classes=[ {
 "class": "GitAPI",
 "language": "NativeScript",
 "path": "res://git_api.gdns"
+}, {
+"base": "Reference",
+"class": "Types",
+"language": "GDScript",
+"path": "res://Shared/Types.gd"
+}, {
+"base": "BlueprintEntity",
+"class": "WireBlueprint",
+"language": "GDScript",
+"path": "res://Entities/Blueprints/WireBlueprint.gd"
+}, {
+"base": "Entity",
+"class": "WireEntity",
+"language": "GDScript",
+"path": "res://Entities/Entities/WireEntity.gd"
 } ]
 _global_script_class_icons={
 "BlueprintEntity": "",
 "Entity": "",
 "EntityTracker": "",
-"GitAPI": ""
+"GitAPI": "",
+"Types": "",
+"WireBlueprint": "",
+"WireEntity": ""
 }
 
 [application]
