@@ -26,5 +26,7 @@ cell_y_sort = true
 format = 1
 script = ExtResource( 5 )
 
+[node name="Timer" type="Timer" parent="GameWorld/YSort/EntityPlacer"]
+
 [node name="Player" parent="GameWorld/YSort" instance=ExtResource( 2 )]
 position = Vector2( -32.7579, 312.46 )
